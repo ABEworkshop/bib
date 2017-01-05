@@ -51,11 +51,10 @@
 @string{tifs=" IEEE Transactions on Information Forensics and Security "}
 @string{sp=" IEEE symposium on security and privacy"}
 @string{asct=" The Eighth Annual Structure in Complexity Theory"}
-@string{tact=" Advances in Cryptology - EUROCRYPT: Annual International Conference on the Theory and Applications of Cryptographic Techniques "}
+@string{eurocrypt=" Advances in Cryptology - EUROCRYPT: Annual International Conference on the Theory and Applications of Cryptographic Techniques "}
 @string{crypto=" Advances in Cryptology - CRYPTO: Annual International Cryptology Conference "}
 @string{pkc="International Workshop on Practice and Theory in Public Key Cryptography"}
 @string{toc="IEEE Transactions on Computers"}
-@string{esorics="European Symposium on Research in Computer Security"}
 @string{sc_13="Security and Cryptography (SECRYPT), 2013 International Conference on"}
 @string{icc=" IEEE International Conference on Communications Workshops"}
 @string{jns=" International Journal of Network Security "}
@@ -69,7 +68,6 @@
 @string{indocrypt=" Progress in Cryptology - INDOCRYPT: International Conference on Cryptology in India "}
 @string{esorics=" Computer Security - ESORICS: European Symposium on Research in Computer Security"}
 @string{scn=" Security Comm. Networks"}
-@string{esrcs=" European Symposium on Research in Computer Security"}
 @string{ccpe="Concurrency And Computation: Practice And Experience"}
 @string{pkc=" Public Key Cryptography-PKC: International Workshop on Public Key Cryptography"}
 @string{iccc=" IMA International Conference on Cryptography and Coding"}
@@ -83,6 +81,8 @@
 @string{incs=" IEEE International Conference on Intelligent Networking and Collaborative Systems "}
 @string{ispec=" International Conference on Information Security Practice and Experience "} 
 @string{usenix=" Usenix Security Symposium"}
+@string{itsc="IEEE Transactions on Services Computing"}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % publications from our lab
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -91,6 +91,41 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % other publications
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@Article{Weiran:ESORICS'14,
+  author =       { Weiran Liu, Jianwei Liu, Qianhong Wu, Bo Qin, Yunya Zhou },
+  title =     { Practical Direct Chosen Ciphertext Secure Key-Policy Attribute-Based Encryption with Public Ciphertext Test },
+  journal =   esorics,
+  year =   {  2014 },
+  pages =    { 91-108 },
+}
+
+@Article{Zhiguang:ITSC'16,
+  author =   { Zhiguang Qin, Hu Xiong, Shikun Wu, Jennifer Batamuliza },
+  title = {Identity-Based Encryption from the Weil Pairing},
+  journal =   itsc,
+  year =   { 2016 },
+  volume =   { PP },
+  issue =    { 99 },
+  pages   =  { 1-1 },
+}
+@Article{Ran:EUROCRYPT'04,
+  author =       { Ran Canetti, Shai Halevi, Jonathan Katz },
+  title =     { Chosen-Ciphertext Security from Identity-Based Encryption},
+  journal =   eurocrypt,
+  year =   {  2004 },
+  pages =    { 207-222 },
+  
+}
+
+@Article{Mihir:CRYPTO'98,
+  author =   { Mihir Bellare, Anand Desai, David Pointcheval, Phillip Rogaway},
+  title = {Relations Among Notions of Security for Public-Key Encryption Schemes },
+  journal =   crypto,
+  year =   { 1998 },
+  pages =    { 26-45 },
+}
 
 
 @Article{Ling:CCS'07,
@@ -301,10 +336,10 @@
       
 }
 
-@Article{Matt:TACT'98,
+@Article{Matt:EUROCRYPT'98,
   author =    { Matt Blaze，Gerrit Bleumer，Martin Strauss },
   title = { Divertible protocols and atomic proxy cryptography },
-  journal =   tact,
+  journal =   eurocrypt,
   year =   { 1998 },
   pages =    { 127-144 },
       
@@ -524,10 +559,10 @@
 }
 
 
-@Article{Jinguang:ESRCS'14,
+@Article{Jinguang:ESORICS'14,
   author =       { Jinguang Han, Willy Susilo, Yi Mu, Jianying Zhou, Man Ho Au },
   title =     { PPDCP-ABE: privacy-preserving decentralized ciphertext-policy attribute-based encryption },
-  journal =   esrcs,
+  journal =   esorics,
   year =   {  2014 },
   pages =    { 73-90 },
 }
@@ -564,19 +599,19 @@
 　issue  = { 3 }
 }
 
-@Article{Boneh:TACT'05,
+@Article{Boneh:EUROCRYPT'05,
   author =       { Dan Boneh, Xavier Boyen, Eu-Jin Goh },
   title =     { Hierarchical Identity Based Encryption with Constant Size Ciphertext },
-  journal =   tact,
+  journal =   eurocrypt,
   year =   {  2005 },
   pages =    { 440-456 },
   
 }
 
-@Article{Victor:TACT'97,
+@Article{Victor:EUROCRYPT'97,
   author =       { Victor Shoup },
   title =     { Lower bounds for discrete logarithms and related problems },
-  journal =   tact,
+  journal =   eurocrypt,
   year =   {  1997 },
   pages =    { 256-266 },
   
@@ -656,10 +691,10 @@
   
 }
 
-@Article{Cheung:TACT'10,
+@Article{Cheung:EUROCRYPT'10,
   author =       { Allison Lewko, Tatsuaki Okamoto, Amit Sahai, Katsuyuki Takashima, Brent Waters },
   title =     { Fully secure functional encryption: Attribute-based encryption and (hierarchical) inner product encryption },
-  journal =   tact,
+  journal =   eurocrypt,
   year =   { 2010 },
   pages =    { 62-91 },
   
@@ -780,10 +815,10 @@
  }
 
 
-@Article{Sahai:TACT'05,
+@Article{Sahai:EUROCRYPT'05,
   author =       { Amit Sahai, Brent Waters },
   title =     {Fuzzy Identity Based Encryption },
-  journal =   tact,
+  journal =   eurocrypt,
   year =   { 2005 },
   pages =    { 457-473 },
  
@@ -810,10 +845,10 @@
  }
 
 
-@Article{Lewko:TACT'11,
+@Article{Lewko:EUROCRYPT'11,
   author =       { Allison Lewko, Brent Waters},
   title =     {Decentralizing Attribute-Based Encryption},
-  journal =   tact,
+  journal =   eurocrypt,
   year =   { 2011 },
   pages =    { 568-588 },
  
